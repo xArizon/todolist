@@ -277,6 +277,9 @@ visibility: hidden;
   .task p{
     font-size: 15px;
   }
+  .main__control button:hover{
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+  }
 }
 /* Portrait tablets and small desktops */
 @media (max-width: 349px) and (min-width:250px){
@@ -314,6 +317,10 @@ padding: 0 8px;
   }
   .task p{
     font-size: 15px;
+  }
+
+  .main__control button:hover{
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
   }
 }
 /* Landscape phones and portrait tablets */
